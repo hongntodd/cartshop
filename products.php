@@ -45,7 +45,7 @@ if($num>0){
             //creating new table row per record
             echo "<tr>";
                 echo "<td>";
-                    echo "<div class='product-id' style='display:none;'>{$id}</div>";
+                    echo "<div class='product-id' style='display:block;'>{$id}</div>";
                     echo "<div class='product-name'>{$name}</div>";
                 echo "</td>";
                 echo "<td>&#36;{$price}</td>";
